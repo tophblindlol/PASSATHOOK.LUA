@@ -191,7 +191,7 @@ end
 
 -- Window
 
-local Actyrn = UiLib:CreateWindow("Azure Modded (LITE) | Actyrn", Vector2.new(500, 600), Enum.KeyCode.RightShift)
+local Actyrn = UiLib:CreateWindow("Passathook | 69", Vector2.new(500, 600), Enum.KeyCode.RightShift)
 
 -- Tabs
 
@@ -820,7 +820,7 @@ UserInputService.InputBegan:Connect(function(Key)
 
 			if CameraAimbot.Notify then
 				StarterGui:SetCore("SendNotification", {
-					Title = "Azure Modded [Actyrn]", 
+					Title = "Passathook [Jannesbonk]", 
 					Text = "Untargeting: " .. CamlockPlr.DisplayName, 
 					Duration = 2.5
 				})
@@ -832,7 +832,7 @@ UserInputService.InputBegan:Connect(function(Key)
 
 				if CameraAimbot.Notify then
 					StarterGui:SetCore("SendNotification", {
-						Title = "Azure Modded [Actyrn]", 
+						Title = "Passathook [Jannesbonk]", 
 						Text = "Targeting: " .. CamlockPlr.DisplayName, 
 						Duration = 2.5
 					})
