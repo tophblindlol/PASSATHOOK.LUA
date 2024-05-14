@@ -1,8 +1,8 @@
 -- Credits to Elegant and Weda, the original script coders
 
--- kys
+-- PUT THE SOURCE CODE DIRECTLY WHEN SHARING 
 
--- feel free to skid it
+-- FEEL FREE TO SKIDD!!
 
 repeat wait() until game:IsLoaded()
 
@@ -13,7 +13,7 @@ getnamecallmethod = getnamecallmethod
 
 -- Variables
 
-local UiLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tophblindlol/azurelitePRECONFIG/main/uiLib.lua"))()
+local UiLib = loadstring(game:HttpGet("https://pastebin.com/raw/JFzC7iXS"))()
 
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
@@ -191,7 +191,7 @@ end
 
 -- Window
 
-local Actyrn = UiLib:CreateWindow("Passathook | 69", Vector2.new(500, 600), Enum.KeyCode.RightShift)
+local Actyrn = UiLib:CreateWindow("Passathook (LITE) | Actyrn", Vector2.new(500, 600), Enum.KeyCode.RightShift)
 
 -- Tabs
 
@@ -335,7 +335,7 @@ end, "AntiLockEnabled")
 
 AntiLockTog:AddKeybind(Enum.KeyCode.C, "AntiLockKeybind")
 
-AntiLockSec:AddDropdown("Mode", {"Up", "Down", "Prediction Disabler", "Spinbot Desync"}, "Up", false, function(Value)
+AntiLockSec:AddDropdown("Mode", {"Up", "Down", "Prediction Disabler", "Spinbot Desync"}, "Prediction Disabler", false, function(Value)
 	AntiLock.Mode = Value
 end, "AntiLockMode")
 
@@ -444,8 +444,8 @@ end, "Speed")
 
 SpeedTog:AddKeybind(Enum.KeyCode.Z, "SpeedKeybind")
 
-MovementSec:AddSlider("Speed Amount", 1, 1000, 5000, 1, function(Value)
-	Movement.SpeedAmount = Value / 2500
+MovementSec:AddSlider("Speed Amount", 1, 2500, 5000, 1, function(Value)
+	Movement.SpeedAmount = Value / 1000
 end, "SpeedAmount")
 
 MovementSec:AddToggle("Auto Jump", false, function(Value)
@@ -820,7 +820,7 @@ UserInputService.InputBegan:Connect(function(Key)
 
 			if CameraAimbot.Notify then
 				StarterGui:SetCore("SendNotification", {
-					Title = "Passathook [Jannesbonk]", 
+					Title = "Passathook [JannesBonk]", 
 					Text = "Untargeting: " .. CamlockPlr.DisplayName, 
 					Duration = 2.5
 				})
@@ -832,7 +832,7 @@ UserInputService.InputBegan:Connect(function(Key)
 
 				if CameraAimbot.Notify then
 					StarterGui:SetCore("SendNotification", {
-						Title = "Passathook [Jannesbonk]", 
+						Title = "Passathook [JannesBonk]", 
 						Text = "Targeting: " .. CamlockPlr.DisplayName, 
 						Duration = 2.5
 					})
