@@ -329,7 +329,7 @@ end, "CameraFOVSize")
 
 -- Anti Lock
 
-local AntiLockTog = AntiLockSec:AddToggle("Enabled", false, function(Value)
+local AntiLockTog = AntiLockSec:AddToggle("Enabled", true, function(Value)
 	AntiLock.Enabled = Value
 end, "AntiLockEnabled")
 
